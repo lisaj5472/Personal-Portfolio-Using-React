@@ -10,7 +10,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['/src/assets/styles.css', '/src/assets/images/headShot.jpg', 'src/assets/images/blog.png', 'src/assets/images/CSSsnippetCheatsheet.png', 'src/assets/images/digest.png', 'src/assets/images/firstPortfolio.png', 'src/assets/docs/lj-full-resume.pdf', '/src/assets/logo.png'],
+      external: ['/src/assets/styles.css'],
        },
 }
 });
