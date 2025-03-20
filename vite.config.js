@@ -12,4 +12,5 @@ export default defineConfig({
     rollupOptions: {
       external: ['/src/assets/styles.css'],
     },
+}
 });
