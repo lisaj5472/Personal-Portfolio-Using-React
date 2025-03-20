@@ -1,4 +1,8 @@
 import PortfolioCard from "../portfolioCard";
+import blog from "../../assets/images/blog.png";
+import digest from "../../assets/images/digest.png";
+import firstPortfolio from "../../assets/images/firstPortfolio.png";
+import CSSsnippetCheatsheet from "../../assets/images/CSSsnippetCheatsheet.png";
 
 export default function Portfolio() {
   return (
@@ -24,7 +28,7 @@ export default function Portfolio() {
       <PortfolioCard className="portfolio-card"
           title="Digest"
           description="This group project is a personalized nutrition app that generates meal plans based on user preferences and dietary restrictions. It features a user-friendly interface, recipe search functionality, and a meal plan generator. This project combined the skills of a team of developers to create a full-stack application using HTML, CSS, Bootstrap, and Javascript."
-          image="/assets/images/digest.png"
+          image={digest}
           link="https://justinvittitoe.github.io/Digest/"
         />
         <PortfolioCard className="portfolio-card"
@@ -35,7 +39,7 @@ export default function Portfolio() {
         <PortfolioCard className="portfolio-card"
           title="CSS Snippet Cheatsheet"
           description="This project is a CSS Snippet Cheat Sheet developed as part of the University of Denver Coding Boot Camp. It serves as a handy reference for commonly used CSS snippets and techniques, facilitating quick access to essential code patterns for web development."
-          image="/assets/images/CSSsnippetCheatsheet.png"
+          image={CSSsnippetCheatsheet}
           link="https://lisaj5472.github.io/CSS-Snippet-Cheatsheet/"
         />
         <PortfolioCard className="portfolio-card"
@@ -46,13 +50,13 @@ export default function Portfolio() {
         <PortfolioCard className="portfolio-card"
           title="First Portfolio - CSS Challenge"
           description="This was my first portfolio project attempt. It was built using very basic HTML and CSS styling."
-          image="/assets/images/firstPortfolio.png"
+          image={firstPortfolio}
           link="https://lisaj5472.github.io/firstPortfolio-CSSchallenge/"
         />
         <PortfolioCard className="portfolio-card"
           title="Personal Blog - web APIs Challenge"
           description="This project is a two-page personal blog website developed as part of the University of Denver Coding Boot Camp. It enables users to input and view blog posts, featuring a content form, dynamic rendering of blog entries, and a light/dark mode toggle. The website is built using HTML, CSS, and Javascript."
-          image="/assets/images/blog.png"
+          image={blog}
           link="https://lisaj5472.github.io/personalBlog-webAPIsChallenge/"
         />
         </div>
