@@ -1,6 +1,6 @@
 import React from "react";
 
-const PortfolioCard = ({ title, description, image, alt, video, link }) => {
+const PortfolioCard = ({ title, description, image, alt, video, link, repo }) => {
   return (
     <div className="portfolio-card">
       {/* Display video if provided, otherwise show image */}
@@ -19,6 +19,11 @@ const PortfolioCard = ({ title, description, image, alt, video, link }) => {
         {link && (
           <a href={link} target="_blank" rel="noopener noreferrer" className="btn">
             View Project
+          </a>
+        )}
+        {repo && (
+          <a href={repo} target="_blank" rel="noopener noreferrer" className="btn github-btn">
+            View GitHub Repo
           </a>
         )}
       </div>

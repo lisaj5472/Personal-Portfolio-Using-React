@@ -31,11 +31,13 @@ export default function Portfolio() {
           image="/assets/digest.png"
           alt="Digest"
           link="https://justinvittitoe.github.io/Digest/"
+          repo="https://github.com/justinvittitoe/Digest.git"
         />
         <PortfolioCard className="portfolio-card"
           title="Vehicle Management CLI Application"
           description="This is a command-line interface (CLI) application for managing vehicles, including Cars, Trucks, and Motorbikes. Written with typescript, the program allows users to interact with a collection of vehicles, generate VIN numbers, and perform various operations through an interactive prompt."
           video="https://drive.google.com/file/d/1-5Ss3KMQI3DIpRONd7DZIjdexxz1ZAu7/view?usp=sharing"
+          repo="https://github.com/lisaj5472/typeScriptChallenge.git"
         />
         <PortfolioCard className="portfolio-card"
           title="CSS Snippet Cheatsheet"
@@ -43,11 +45,13 @@ export default function Portfolio() {
           image="/assets/CSSsnippetCheatsheet.png"
           alt="CSS Snippet Cheatsheet"
           link="https://lisaj5472.github.io/CSS-Snippet-Cheatsheet/"
+          repo="https://github.com/lisaj5472/CSS-Snippet-Cheatsheet.git"
         />
         <PortfolioCard className="portfolio-card"
           title="SQL Employee Tracker CLI"
           description="This command-line interface (CLI) application manages employees, departments, and roles within a company SQL database. It provides an interactive menu to view, add, and update employee records efficiently. The program uses Node.js, Inquirer, and postgreSQL to interact with the database."
           video="https://drive.google.com/file/d/1-5iy4k8lY0a6JyE28rC_VMdG1KRE2woY/view?usp=sharing"
+          repo="https://github.com/lisaj5472/SQL-challenge-LJ.git"
         />
         <PortfolioCard className="portfolio-card"
           title="First Portfolio - CSS Challenge"
@@ -55,6 +59,7 @@ export default function Portfolio() {
           image="/assets/firstPortfolio.png"
           alt="First Portfolio"
           link="https://lisaj5472.github.io/firstPortfolio-CSSchallenge/"
+          repo="https://github.com/lisaj5472/firstPortfolio-CSSchallenge.git"
         />
         <PortfolioCard className="portfolio-card"
           title="Personal Blog - web APIs Challenge"
@@ -62,6 +67,7 @@ export default function Portfolio() {
           image="/assets/blog.png"
           alt="Personal Blog"
           link="https://lisaj5472.github.io/personalBlog-webAPIsChallenge/"
+          repo="https://github.com/lisaj5472/personalBlog-webAPIsChallenge.git"
         />
         </div>
 </div>
