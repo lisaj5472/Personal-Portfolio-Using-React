@@ -152,6 +152,20 @@ button:hover, .btn:hover {
   background-color: darkorange;
 }
 
+.github-btn {
+  background-color: var (--primary-color);
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.github-btn:hover {
+  background-color: #24292e;
+}
+
 /* === PAGE SECTIONS === */
 .page {
   background: white;
