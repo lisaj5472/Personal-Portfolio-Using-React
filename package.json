@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://portfolisa.netlify.app/",
+  "license": "MIT",
+  "author": "Lisa Jorgensen", 
   "scripts": {
     "dev": "vite",
     "start": "vite",
