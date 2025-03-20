@@ -17,7 +17,7 @@ export default function About() {
           My background gives me a unique edge: I approach web development with a strategic mindset, ensuring every project is user-friendly, visually compelling, and well-structured.
         </p>
         <p>
-          <a href="../assets/docs/lj-full-resume.pdf" target="blank">Click here to download my full resume.</a>
+          <a href="/assets/lj-full-resume.pdf" target="blank">Click here to download my full resume.</a>
         </p>
       </div>
     </div>
