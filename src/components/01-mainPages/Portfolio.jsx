@@ -1,8 +1,8 @@
 import PortfolioCard from "../portfolioCard";
-import blog from "../../assets/images/blog.png";
-import digest from "../../assets/images/digest.png";
-import firstPortfolio from "../../assets/images/firstPortfolio.png";
-import CSSsnippetCheatsheet from "../../assets/images/CSSsnippetCheatsheet.png";
+import blog from "/src/assets/images/blog.png";
+import digest from "/src/assets/images/digest.png";
+import firstPortfolio from "/src/assets/images/firstPortfolio.png";
+import CSSsnippetCheatsheet from "/src/assets/images/CSSsnippetCheatsheet.png";
 
 export default function Portfolio() {
   return (
