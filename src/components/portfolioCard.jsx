@@ -1,6 +1,6 @@
 import React from "react";
 
-const PortfolioCard = ({ title, description, image, video, link }) => {
+const PortfolioCard = ({ title, description, image, alt, video, link }) => {
   return (
     <div className="portfolio-card">
       {/* Display video if provided, otherwise show image */}
@@ -10,7 +10,7 @@ const PortfolioCard = ({ title, description, image, video, link }) => {
           Your browser does not support the video tag.
         </video>
       ) : (
-        image && <img src={image} alt={title} className="portfolio-media" />
+        image && <img src={image} alt={alt || title} className="portfolio-media" />
       )}
 
       <div className="portfolio-content">
