@@ -190,6 +190,17 @@ video.portfolio-media {
   object-fit: cover;
 }
 
+/* === FORM STYLES === */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px; /* Adjust spacing as needed */
+}
+
+label {
+  margin-bottom: 5px; /* Adds space between label and input */
+}
+
 /* === LINKS === */
 a {
   color: var(--link-color);
