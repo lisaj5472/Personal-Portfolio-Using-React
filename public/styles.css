@@ -148,22 +148,40 @@ button, .btn {
   transition: background 0.3s ease;
 }
 
-button:hover, .btn:hover {
-  background-color: darkorange;
+button, .btn:hover {
+  background-color: var(--primary-color);
 }
 
 .github-btn {
-  background-color: var (--primary-color);
-  color: white;
-  padding: 8px 12px;
-  text-decoration: none;
-  border-radius: 5px;
   display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background 0.3s ease;
   margin-top: 10px;
 }
 
 .github-btn:hover {
-  background-color: #24292e;
+  background-color: var(--secondary-color)
+}
+
+.project-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.project-btn:hover {
+  background-color: var(--primary-color)
 }
 
 /* === PAGE SECTIONS === */
@@ -215,16 +233,6 @@ button:hover, .btn:hover {
 .portfolio-content p {
   font-size: var(--font-size-base);
   color: var(--text-color);
-}
-
-.portfolio-content .btn {
-  width: 100%;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.portfolio-content .btn:hover {
-  background-color: darkorange;
 }
 
 .portfolio-grid {
