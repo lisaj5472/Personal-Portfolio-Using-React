@@ -1,14 +1,11 @@
 export default function About() {
   return (
     <div className="page container">
-      <h1>About Page</h1>
+      <h3>From Event Planning to Front-End Development: A Problem-Solver at Heart</h3>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      With years of experience in operations, marketing, and event management, I have always thrived on organization, efficiency, and problem-solving. I found my love for coding while streamlining workflows and automating tasks, and now, I am building a career in front-end development.
+      
+      My background gives me a unique edge: I approach web development with a strategic mindset, ensuring every project is user-friendly, visually compelling, and well-structured.
       </p>
       <p>
         <a href="./assets/docs/lj-full-resume.pdf" target="blank">Click here to download my full resume.</a>
