@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import logo from "/src/assets/logo.png";
+// import logo from "/src/assets/logo.png";
 
 export default function NavTabs() {
   return (
     <nav>
       <div className="nav-left">
       <a href="/">
-        <img src={logo} alt="LAJ Logo" className="logo" />
+        <img src="/assets/logo.png" alt="LAJ Logo" className="logo" />
       </a> 
       <span className="name">Lisa Jorgensen</span>
       </div>
