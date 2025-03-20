@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="page container about-container">
       <div className="about-image">
-        <img src="/assets/images/headShot.jpg" alt="Profile picture" /> alt="Lisa Jorgensen" />
+        <img src="/assets/images/headShot.jpg" alt="Lisa Jorgensen" />
       </div>
 
       <div className="about-text">
