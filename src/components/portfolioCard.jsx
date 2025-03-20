@@ -22,7 +22,7 @@ const PortfolioCard = ({ title, description, image, alt, video, link, repo }) =>
           </a>
         )}
         {repo && (
-          <a href={repo} target="_blank" rel="noopener noreferrer" className="btn git-btn">
+          <a href={repo} target="_blank" rel="noopener noreferrer" className="btn github-btn">
             View GitHub Repo
           </a>
         )}

@@ -190,7 +190,6 @@ button:hover, .btn:hover {
   transition: transform 0.3s ease-in-out;
 }
 
-
 .portfolio-card:hover {
   transform: translateY(-5px);
 }
@@ -199,6 +198,12 @@ button:hover, .btn:hover {
   width: 100%;
   height: auto;
   border-radius: var(--border-radius);
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .portfolio-content h3 {
@@ -213,14 +218,9 @@ button:hover, .btn:hover {
 }
 
 .portfolio-content .btn {
-  display: inline-block;
+  width: 100%;
+  text-align: center;
   margin-top: 10px;
-  text-decoration: none;
-  padding: 10px 15px;
-  background-color: var(--secondary-color);
-  color: white;
-  border-radius: var(--border-radius);
-  transition: background 0.3s ease;
 }
 
 .portfolio-content .btn:hover {
