@@ -8,7 +8,6 @@ This project is a **React.js** application developed as part of a coding challen
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
@@ -36,6 +35,7 @@ To set up and run this project locally, follow these steps:
 - Open the app in your browser.
 - Interact with various features implemented in React.
 - Modify the components to see how React handles re-rendering and state updates.
+- Please note: the site is not currently built to accept data from the contact form. This feature will be added in the future.
 
 ## Technologies Used
 - **React.js**
@@ -48,6 +48,10 @@ To set up and run this project locally, follow these steps:
 - State management using React hooks.
 - Responsive design ensuring usability on different devices.
 - Dynamic rendering based on user interactions.
+
+## Future Enhancements
+- Site will include database to capture contact form data.
+- Will rebuild using Tailwind CSS framework. 
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
