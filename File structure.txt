@@ -1,0 +1,34 @@
+/businessWebsite
+│── /public
+│── /src
+│   │── /components
+│   │   │── footer.jsx
+│   │   │── NavTabs.jsx
+│   │   │── ServiceCard.jsx
+│   │── /pages
+│   │   │── Home.jsx  (Main landing page)
+│   │   │── About.jsx (includes downloadable resume)
+│   │   │── Contact.jsx (includes a form)
+│   │   │── Services.jsx
+│   │   │   │── home
+│   │   │   │   │── cleaning.jsx
+│   │   │   │   │── improvement.jsx
+│   │   │   │   │── organizing.jsx
+│   │   │   │── office
+│   │   │   │   │── Admin.jsx
+│   │   │   │   │── Events.jsx
+│   │   │   │   │── SoftwareDev.jsx
+│   │   │   │── wellness
+│   │   │   │   │── nutrition.jsx
+│   │   │   │   │── personalTraining.jsx
+│   │   │   │   │── strength.jsx
+│   │── /assets
+│   │   │── /images  (For logos, icons, etc.)
+│   │   │── styles.css  (Contains all CSS styles)
+│   │── App.jsx
+│   │── main.jsx
+│── .gitignore
+│── index.html
+│── package.json
+│── README.md
+

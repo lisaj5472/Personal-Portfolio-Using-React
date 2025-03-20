@@ -1,0 +1,215 @@
+/* === GLOBAL STYLES === */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #f39c12;
+  --background-color: #f8f9fa;
+  --text-color: #333;
+  --link-color: #2980b9;
+  --border-radius: 8px;
+  --shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --font-size-base: 16px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+}
+
+/* === LAYOUT === */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* === NAVIGATION === */
+nav {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: var(--secondary-color);
+}
+
+/* === FOOTER STYLES === */
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  color: var(--secondary-color);
+}
+
+/* === BUTTONS === */
+button, .btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: darkorange;
+}
+
+/* === PAGE SECTIONS === */
+.page {
+  background: white;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+/* === PORTFOLIO CARD === */
+.portfolio-card {
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+.portfolio-content h3 {
+  color: var(--primary-color);
+  margin: 12px 0;
+  font-size: 1.5rem;
+}
+
+.portfolio-content p {
+  font-size: var(--font-size-base);
+  color: var(--text-color);
+}
+
+.portfolio-content .btn {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: var(--border-radius);
+  transition: background 0.3s ease;
+}
+
+.portfolio-content .btn:hover {
+  background-color: darkorange;
+}
+
+.portfolio-grid {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.portfolio-media {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+video.portfolio-media {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* === LINKS === */
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === MOBILE RESPONSIVENESS === */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+}
