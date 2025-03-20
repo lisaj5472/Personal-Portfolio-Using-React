@@ -4,7 +4,7 @@ import Home from "./components/01-mainPages/Home";
 import About from "./components/01-mainPages/About";
 import Portfolio from "./components/01-mainPages/Portfolio";
 import Contact from "./components/01-mainPages/Contact";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 import 'normalize.css';
 
 
