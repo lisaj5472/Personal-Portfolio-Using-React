@@ -10,15 +10,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['/src/assets/styles.css'],
-      external: ['/src/assets/images/headShot.jpg'],
-      external: ['/src/assets/logo.png'],
-      external: ['/src/assets/docs/lj-full-resume.pdf'],
-      external: ['src/assets/images/blog.png'],
-      external: ['src/assets/images/CSSsnipperCheatsheet.png'],
-      external: ['src/assets/images/digest.png'], 
-      external: ['src/assets/images/firstPortfolio.png'],
-      external: ['src/assets/docs/lj-full-resume.pdf'],
+      external: ['/src/assets/styles.css', '/src/assets/images/headShot.jpg', 'src/assets/images/blog.png', 'src/assets/images/CSSsnippetCheatsheet.png', 'src/assets/images/digest.png', 'src/assets/images/firstPortfolio.png', 'src/assets/docs/lj-full-resume.pdf', '/src/assets/logo.png'],
        },
 }
 });
