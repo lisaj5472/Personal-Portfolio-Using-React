@@ -1,10 +1,10 @@
-import myPhoto from "/src/assets/images/headShot.jpg";
+// import myPhoto from "../assets/images/headShot.jpg";
 
 export default function About() {
   return (
     <div className="page container about-container">
       <div className="about-image">
-        <img src={myPhoto} alt="Lisa Jorgensen" />
+        <img src="/assets/images/headShot.jpg" alt="Profile picture" /> alt="Lisa Jorgensen" />
       </div>
 
       <div className="about-text">
@@ -17,7 +17,7 @@ export default function About() {
           My background gives me a unique edge: I approach web development with a strategic mindset, ensuring every project is user-friendly, visually compelling, and well-structured.
         </p>
         <p>
-          <a href="/src/assets/docs/lj-full-resume.pdf" target="blank">Click here to download my full resume.</a>
+          <a href="../assets/docs/lj-full-resume.pdf" target="blank">Click here to download my full resume.</a>
         </p>
       </div>
     </div>
